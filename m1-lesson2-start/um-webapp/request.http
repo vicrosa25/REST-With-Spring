@@ -1,0 +1,14 @@
+### Get all Roles
+GET http://localhost:8080/api/roles
+
+
+
+
+### Create a privilege
+POST  http://localhost:8080/api/privileges
+Content-Type: application/json
+
+{
+  "name2": "PRIV10",
+  "description": "description 10"
+}
